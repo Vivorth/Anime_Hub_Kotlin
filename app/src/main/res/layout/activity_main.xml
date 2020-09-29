@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        />
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/image_slider"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:iss_auto_cycle="true"
+        app:iss_period="2000"
+        app:iss_corner_radius="15"
+        app:iss_delay="0"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/popular_linear"
+        android:visibility="gone"
+
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Popular"
+            android:textSize="18dp"
+
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MORE"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:textSize="13dp"
+            android:textColor="#FF2D00"
+            android:id="@+id/popular_more"
+            android:clickable="true"
+            />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:scrollbars="vertical"
+
+        ></androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:visibility="gone"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/series_linear"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anime series"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MORE"
+                android:gravity="right"
+                android:layout_marginRight="10dp"
+                android:id="@+id/series_more"
+                android:clickable="true"
+                android:textSize="13dp"
+                android:textColor="#FF2D00"
+                />
+
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:id="@+id/main_recycler1"
+
+            ></androidx.recyclerview.widget.RecyclerView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/full_linear"
+                android:visibility="gone"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anime full episode"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MORE"
+                    android:gravity="right"
+                    android:textSize="13dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/full_more"
+                    android:clickable="true"
+                    android:textColor="#FF2D00"
+                    />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:id="@+id/main_recycler2"
+
+                ></androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

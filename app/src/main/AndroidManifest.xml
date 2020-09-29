@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anime">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Anime"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".load_recycler"></activity>
+        <activity
+            android:name=".load"
+            android:configChanges="orientation|screenSize" android:hardwareAccelerated="true"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

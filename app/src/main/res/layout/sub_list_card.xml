@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/a_numpang"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_row="0"
+    android:layout_rowWeight="1"
+    android:layout_column="0"
+    android:layout_columnWeight="1"
+
+>
+    <RelativeLayout
+        android:background="@drawable/recycler_border"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#99ffffff"
+        android:textColor="#000000"
+        android:text="15:56"
+        android:textSize="15dp"
+        android:layout_margin="15dp"
+        android:layout_toEndOf="@+id/sub_image"
+        android:layout_centerVertical="true"
+        android:id="@+id/length"
+        />
+
+        <ImageView
+            android:id="@+id/sub_image"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="0dp" />
+    </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

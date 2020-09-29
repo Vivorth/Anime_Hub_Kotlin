@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "196275928498",
+    "firebase_url": "https://the-anime-collections.firebaseio.com",
+    "project_id": "the-anime-collections",
+    "storage_bucket": "the-anime-collections.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196275928498:android:84fdcd3f3086c6b57138ab",
+        "android_client_info": {
+          "package_name": "com.example.anime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196275928498-0chcku5vcojf9rfi5bva7ma2e9l3185b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGba02rRTWd4fOha74wenpumF4FnjO7kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196275928498-0chcku5vcojf9rfi5bva7ma2e9l3185b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196275928498:android:122821e668ce45e37138ab",
+        "android_client_info": {
+          "package_name": "com.example.theanimecollections"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196275928498-0chcku5vcojf9rfi5bva7ma2e9l3185b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGba02rRTWd4fOha74wenpumF4FnjO7kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196275928498-0chcku5vcojf9rfi5bva7ma2e9l3185b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
